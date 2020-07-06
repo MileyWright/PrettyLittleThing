@@ -17,9 +17,19 @@ const Nav = () => {
     );
     const menu = (
         <Menu>
-          <Menu.Item key="0"> 1st menu item </Menu.Item>
-          <Menu.Item key="1"> 2nd menu item </Menu.Item>
-          <Menu.Item key="3">3rd menu item</Menu.Item>
+            <Menu.Item key="0"> 
+                <img src={require('../Assets/united-kingdom.png')} className='currency_flag' alt='UK store'/>
+                <span className='currency_text_gbp'>UK & Rest of World</span>
+                <span className='pull-right'>£</span>
+            </Menu.Item>
+            <Menu.Item key="1">
+                <img src={require('../Assets/ireland.png')} className='currency_flag' alt='IRE store' />
+                <span className='currency_text_eur'>IRE</span> 
+                <span className='pull-right'>€</span>
+            </Menu.Item>
+            <Menu.Item key="3">
+                3rd menu item
+            </Menu.Item>
         </Menu>
       );
     return(

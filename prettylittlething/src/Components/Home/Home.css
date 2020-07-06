@@ -1,3 +1,16 @@
 .nav {
     margin: 10px;
 }
+.currency_flag {
+    margin: 1px 6px 0 0;
+    float: left;
+}
+.currency_text_gbp {
+    font-size: 9px;
+    text-align: left;
+    width: 20px !important;
+
+}
+.pull-right {
+    float: right;
+}
