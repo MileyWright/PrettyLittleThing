@@ -1,16 +1,29 @@
 .nav {
     margin: 10px;
 }
+.dropdown {
+    padding: 14px;
+}
+.dropdown-menu {
+    width: 100px;
+}
+.UK_dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    text-align: center;
+}
 .currency_flag {
     margin: 1px 6px 0 0;
     float: left;
+    height: 20px;
 }
 .currency_text_gbp {
     font-size: 9px;
-    text-align: left;
-    width: 20px !important;
-
 }
+
 .pull-right {
     float: right;
+    padding-left: 9px;
 }
