@@ -26,10 +26,51 @@ const Home = () => {
                 </div>
             </div>
             <div className='section_seven'>
-                <div></div>
+                <div>
+                    <img src={require('../Assets/9DuMY9h47eRVKMfGcB7P8DJyhGDYzcm4vjpRgARM.webp')} alt='null'/>
+                    <div className='cls_button'>DRESSES</div>
+                </div>
+                <div>
+                    <img src={require('../Assets/1d4UAUqcVIC3V3w44cYtQy6vjSkkP2g0FKpD1p5y.webp')} alt='null'/>
+                    <div className='cls_button'>GLOW UP</div>
+                </div>
+                <div>
+                    <img src={require('../Assets/13MHafIBDAn123ezWudTnw7BgiPpVtgqwtn8rvGQ.webp')} alt='null'/>
+                    <div className='cls_button'>SALE</div>
+                </div>
+                <div>
+                    <img src={require('../Assets/dI8y1Stwvdb89P8EEbNqhko7aLnrjEOgaWAEJ1kz.webp')} alt='null'/>
+                    <div className='cls_button'>SUMMER SHOP</div>
+                </div>
             </div>
             <div className='section_eight'>
-
+                <div className='section_eight_head'>SHOP BY CATEGORY</div>
+                    <div className='section_eight_grid'>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/jqQXTzXPaFH7yPsqQUgLoQM3za2WcNDBIcpxhcv3.webp')} alt='null'/>
+                            <div className='cls'>BOTTOMS</div>
+                        </div>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/wN7S4QM5Cpqczjyd7ZDozM54kqMNrpKM6ZUac4vG.webp')} alt='null'/>
+                            <div className='cls'>DENIM</div>
+                        </div>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/mXx0E10RE3rKYZJdRB6mhjU7EACV5iPC4KJTREp4.webp')} alt='null'/>
+                            <div className='cls'>CO-ORDS</div>
+                        </div>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/rRwV9JLA9jh5I4CPVIOFnfHFA2vO39QWQxCI9vjJ.webp')} alt='null'/>
+                            <div className='cls'>PLUS & SHAPE</div>
+                        </div>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/7qRFj8T1A14TVps8rk83DA6znKmIUiPDvrqOpTod.webp')} alt='null'/>
+                            <div className='cls'>TOPS</div>
+                        </div>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/6YXUv9cmfMJauMqV6orPrAZMv1GFvwSyiau8P798.webp')} alt='null'/>
+                            <div className='cls'>BEAUTY</div>
+                        </div>
+                    </div>
             </div>
         </div>
     )
