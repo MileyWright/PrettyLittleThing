@@ -114,7 +114,17 @@ const Nav = () => {
                 </div>
             </div>
             <div className='bottomNav'>
-
+                <li>NEW IN</li>
+                <li className='nav_sale'>SALE</li>
+                <li>CLOTHING</li>
+                <li>STAY HOME</li>
+                <li>SHOP BY FIGURE</li>
+                <li>DRESSES</li>
+                <li>TOPS</li>
+                <li>SHOES</li>
+                <li>ACCESSORIES</li>
+                <li>BEAUTY</li>
+                <li>THE EDIT</li>
             </div>
         </div>
     )
