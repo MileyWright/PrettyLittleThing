@@ -97,5 +97,18 @@
     letter-spacing: 0;
 }
 .section_four {
-    background: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+.section_four div {
+    background: #eaeaea; 
+    width: 49.8%;
+    padding: 4px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.section_five img{
+    width: 100%;
 }
