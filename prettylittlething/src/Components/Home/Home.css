@@ -112,3 +112,17 @@
 .section_five img{
     width: 100%;
 }
+.section_six {
+    padding: 8px 0;
+}
+.section_six .six {
+    display: flex;
+    justify-content: space-evenly;
+    background: #eaeaea; 
+}
+.section_six .six div {
+    padding: 4px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+}

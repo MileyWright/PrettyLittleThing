@@ -16,13 +16,17 @@ const Home = () => {
                 <div>WE'VE EXTENDED OUR RETURNS PERIOD TO 60 DAYS</div>
             </div>
             <div className='section_five'>
-                <img src='https://cdn-media.prettylittlething.com/bms/media/2020/07/06/kOpZ4PZFplVaKEBh3zBjSqCuf7KYRKNyZWFSVyKA.jpeg' alt='null'/>
+                <img src={require('../Assets/kOpZ4PZFplVaKEBh3zBjSqCuf7KYRKNyZWFSVyKA.webp')} alt='null'/>
             </div>
             <div className='section_six'>
-
+                <div className='six'>
+                    <div>TIME FOR SOME SELF CARE - SHOP SKINCARE & BEAUTY</div>
+                    <div>STUDENTS GET EXTRA 5% OFF - HURRY! LIMITED TIME ONLY</div>
+                    <div><img src={require('../Assets/instagram-sketched.png')} alt='null'/> @PRETTYLITTLETHING</div>
+                </div>
             </div>
             <div className='section_seven'>
-
+                <div></div>
             </div>
             <div className='section_eight'>
 
