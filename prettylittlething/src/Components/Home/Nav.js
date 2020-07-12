@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { Input } from 'antd';
 import { Menu, Dropdown } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
@@ -72,18 +73,45 @@ const Nav = () => {
     return(
         <div className='nav'>
             <div className='topNav'>
-                <Dropdown className='dropdown'overlay={menu} trigger={['click']}>
-                    <a href='/' className="ant-dropdown-link" onClick={e => e.preventDefault()}>
-                    <img src={require('../Assets/flag.png')} alt='american flag'/> <DownOutlined />
-                    </a>
-                </Dropdown>
+                <div className='search'>
+                    <Dropdown className='dropdown'overlay={menu} trigger={['click']}>
+                        <a href='/' className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+                        <img src={require('../Assets/flag.png')} alt='american flag'/> <DownOutlined />
+                        </a>
+                    </Dropdown>
 
-                <Input
-                    placeholder="input search text"
-                    onSearch={value => console.log(value)}
-                    style={{ width: 200, height: 30, fontSize: 12}}
-                    suffix={suffix}
-                />
+                    <Input
+                        placeholder="input search text"
+                        onSearch={value => console.log(value)}
+                        style={{ width: 200, height: 30, fontSize: 12}}
+                        suffix={suffix}
+                    />
+                </div>
+                <div className='prettylittlething-logo'>
+                    <img src={require('../Assets/PrettyLittleThing-logo.jpg')} alt='Pretty Little Thing Logo'/>
+                </div>
+                <div className='user_icons'>
+                    <div className='need_help'>
+                        <Link path='/' className='need_help_link'>
+                            Need Help?
+                        </Link>
+                    </div>
+                    <div>
+                        <Link path='/'>
+                            <img src={require('../Assets/user.png')} alt='user' className='nav_icons'/>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link path='/'>
+                            <img src={require('../Assets/heart.png')} alt='heart' className='nav_icons'/>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link path='/'>
+                            <img src={require('../Assets/shopping-bag.png')} alt='shopping bag' className='nav_icons'/>
+                        </Link>
+                    </div>
+                </div>
             </div>
             <div className='bottomNav'>
 

@@ -1,5 +1,13 @@
 .nav {
-    margin: 10px;
+    /* margin: 10px; */
+}
+.search {
+    display:flex;
+    width: 40%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
 }
 .dropdown {
     padding: 14px;
@@ -26,4 +34,34 @@
 .pull-right {
     float: right;
     padding-left: 9px;
+}
+.topNav {
+    display:flex;
+
+}
+.prettylittlething-logo {
+    width: 300px;
+    text-align: center;
+}
+.user_icons {
+    display: flex;
+    padding-right: 30px;
+    justify-content: flex-end;
+    align-self: center;
+    width: 40%;
+}
+.user_icons div {
+    padding: 2%;
+}
+.user_icons .need_help {
+    text-align: end;
+    text-decoration: underline;
+    width: 100px;
+}
+.user_icons .need_help .need_help_link {
+    color: #000000;
+    font-family: 'Grotesk\ Light';
+}
+.user_icons .nav_icons {
+    width: 20px;
 }
