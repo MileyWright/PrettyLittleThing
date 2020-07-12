@@ -60,7 +60,6 @@
 }
 .user_icons .need_help .need_help_link {
     color: #000000;
-    font-family: 'Grotesk\ Light';
 }
 .user_icons .nav_icons {
     width: 20px;
@@ -80,4 +79,23 @@
 }
 .bottomNav .nav_sale {
     color: #f0373d;
+}
+.section_three {
+    background: #fdbedb;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+    padding: 7px;
+}
+.section_three div {
+
+}
+.section_three .line-4 {
+    font-size: 0.9rem;
+    letter-spacing: 0;
+}
+.section_four {
+    background: #eaeaea;
 }
