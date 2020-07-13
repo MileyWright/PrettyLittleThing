@@ -264,3 +264,57 @@
 .section_ten .cls_slide .arrow {
     width: 35px;
 }
+.section_eleven {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.section_eleven .cls_name{
+    
+}
+.section_eleven {
+    
+}
+.section_eleven .slide { background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.section_eleven .slide .cls_slide img {
+    width: 100%;
+}
+.section_eleven .slide .cls_slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+}
+.section_eleven .slide .cls_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.section_eleven .slide .cls_slide .cls_grid div{
+    width: 260px;
+    text-align: center;
+    padding: 6px;
+    letter-spacing: 1px;
+    height: 90px;
+}
+.section_eleven .slide .cls_slide .cls_grid .cls_button{
+    background-color: #ffffff;
+    padding: 7px;
+    border: 2px solid #000000;
+    font-weight: 900;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+.section_eleven .slide .cls_slide .arrow {
+    width: 60px;
+}

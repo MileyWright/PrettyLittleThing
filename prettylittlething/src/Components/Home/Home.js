@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from './Nav';
-import InstaCarousel from './Insta-Carousel';
 
 const Home = () => {
     return (
@@ -109,11 +108,12 @@ const Home = () => {
                 </div>
             </div>
             <div className='section_eleven'>
-                <div>THE EDIT</div>
-                <div>Get your inspo fix from the new season trends you need to know, how-tos,celeb style and everything in between. This is your feed on all things #PrettyLittleThing</div>
+                <div className='cls_name'>THE EDIT</div>
+                <div className='cls_p'>Get your inspo fix from the new season trends you need to know, how-tos,celeb style and everything in between. This is your feed on all things #PrettyLittleThing</div>
                 <div className='slide'>
-                    <img src={require('../Assets/button.png')} alt='null' className='arrow'/>
+                    
                     <div className='cls_slide'>
+                    <img src={require('../Assets/button.png')} alt='null' className='arrow'/>
                         <div className='cls_grid'>
                             <img src={require('../Assets/eFvBv83W4vlvQkTLNjLgtF0BeMyScJHEaFK30EOy.webp')} alt='null'/>
                             <div>Head to destination unknown this season for the ultimate escape with you, your best girls and nothing but body confidence.</div>
@@ -134,8 +134,9 @@ const Home = () => {
                             <div>Wear your pride with our collection to celebreate the LGBTQ + community.</div>
                             <div className='cls_button'>VIEW THE EDIT</div>
                         </div>
+                        <img src={require('../Assets/right-arrow.png')} alt='null' className='arrow'/>
                     </div>
-                    <img src={require('../Assets/right-arrow.png')} alt='null' className='arrow'/>
+                    
 
                 </div>
             </div>
