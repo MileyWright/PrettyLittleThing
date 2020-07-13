@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from './Nav';
+import InstaCarousel from './Insta-Carousel';
 
 const Home = () => {
     return (
@@ -91,7 +92,19 @@ const Home = () => {
                 </div>
             </div>
             <div className='section_ten'>
+                <div className='section_ten_insta'>
+                    <div className='cls_icon'><img src={require('../Assets/instagram-sketched(1).png')} alt='null'/></div>
+                    <div className='cls_name'>@PRETTYLITTLETHING</div>
+                    <div className='cls_p'>Like what you see? Shop the looks from your fave influencer of the moment straight from the 'Gram.</div>
+                    <div className='cls_button'>
+                        <div>SHOP INSTAGRAM</div>
+                        <div>FOLLOW US</div>
+                    </div>
+                </div>
 
+                <div className='cls_slide'>
+                    <InstaCarousel/>
+                </div>
             </div>
         </div>
     )

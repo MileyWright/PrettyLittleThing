@@ -213,3 +213,40 @@
     border: 2px solid #000000;
     font-weight: 900;
 }
+.section_ten {
+    background: #fdbedb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.section_ten_insta {
+    padding: 30px;
+    text-align: center;
+}
+.section_ten .section_ten_insta .cls_icon img {
+    width: 60px;
+}
+.section_ten .section_ten_insta .cls_name {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #000000;
+    letter-spacing: 1px;
+}
+.section_ten .section_ten_insta .cls_p {
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+.section_ten .cls_button {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section_ten .cls_button div {
+    width: 30%;
+    left: 35%;
+    background-color: #ffffff;
+    padding: 1%;
+    border: 2px solid #000000;
+    font-weight: 900;
+}
