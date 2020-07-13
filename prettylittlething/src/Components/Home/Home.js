@@ -111,7 +111,6 @@ const Home = () => {
                 <div className='cls_name'>THE EDIT</div>
                 <div className='cls_p'>Get your inspo fix from the new season trends you need to know, how-tos,celeb style and everything in between. This is your feed on all things #PrettyLittleThing</div>
                 <div className='slide'>
-                    
                     <div className='cls_slide'>
                     <img src={require('../Assets/button.png')} alt='null' className='arrow'/>
                         <div className='cls_grid'>
@@ -138,6 +137,11 @@ const Home = () => {
                     </div>
                     
 
+                </div>
+            </div>
+            <div className='section_twelve'>
+                <div>
+                <i class="fab fa-instagram-square"></i>
                 </div>
             </div>
         </div>
