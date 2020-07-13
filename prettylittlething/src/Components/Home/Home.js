@@ -72,6 +72,27 @@ const Home = () => {
                         </div>
                     </div>
             </div>
+            <div className='section_nine'>
+                <div className='section_nine_cls'>
+                    <div className='section_nine_grid left'>
+                        <div className='section_nine_head'>UP TO 70% OFF FOOTWEAR</div>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/jSVxs31dBwvuLnML3O0OYnHtS5OuVTOG698dZgbM.webp')} alt='null'/>
+                                <div className='cls_button'>SHOP NOW</div>
+                        </div>
+                    </div>
+                    <div className='section_nine_grid right'>
+                        <div className='section_nine_head'>COSTA RICA</div>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/TRvnHz9qsd7M69Ay7ebzkgCSBUJYxevIdydEzgwv.jpeg')} alt='null'/>
+                                <div className='cls_button'>SHOP NOW</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='section_ten'>
+
+            </div>
         </div>
     )
 }
