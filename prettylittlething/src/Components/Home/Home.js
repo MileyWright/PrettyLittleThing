@@ -103,7 +103,40 @@ const Home = () => {
                 </div>
 
                 <div className='cls_slide'>
-                    <InstaCarousel/>
+                    <img src={require('../Assets/button.png')} alt='null' className='arrow'/>
+                    <img src={require('../Assets/cIQoMs9TlcRAY9k6FT985CZm60HAQbVPvMs3pwos.webp')} alt='null'/>
+                    <img src={require('../Assets/right-arrow.png')} alt='null' className='arrow'/>
+                </div>
+            </div>
+            <div className='section_eleven'>
+                <div>THE EDIT</div>
+                <div>Get your inspo fix from the new season trends you need to know, how-tos,celeb style and everything in between. This is your feed on all things #PrettyLittleThing</div>
+                <div className='slide'>
+                    <img src={require('../Assets/button.png')} alt='null' className='arrow'/>
+                    <div className='cls_slide'>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/eFvBv83W4vlvQkTLNjLgtF0BeMyScJHEaFK30EOy.webp')} alt='null'/>
+                            <div>Head to destination unknown this season for the ultimate escape with you, your best girls and nothing but body confidence.</div>
+                            <div className='cls_button'>SHOP NOW</div>
+                        </div>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/jyIl5tz97wf5joN6c9529pwSTOx29BLxPkYnbXx6.webp')} alt='null'/>
+                            <div>PLT Presents: Jess Hunt with the new season looks way too hot to stay in the shade.</div>
+                            <div className='cls_button'>SHOP NOW</div>
+                        </div>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/y5ANNUEoOT46xtNIAiXFQDcfyIW4fe5dqTSq2F4c.webp')} alt='null'/>
+                            <div>Get ready to bring the heat with summer's sizzling swimwear, beach cover ups and dresses to take you from sunrise to sunset.</div>
+                            <div className='cls_button'>VIEW THE EDIT</div>
+                        </div>
+                        <div className='cls_grid'>
+                            <img src={require('../Assets/LpZBP8auyRAOtz6ewyw42rKbMKQFIoEnYwyC4eDe.webp')} alt='null'/>
+                            <div>Wear your pride with our collection to celebreate the LGBTQ + community.</div>
+                            <div className='cls_button'>VIEW THE EDIT</div>
+                        </div>
+                    </div>
+                    <img src={require('../Assets/right-arrow.png')} alt='null' className='arrow'/>
+
                 </div>
             </div>
         </div>

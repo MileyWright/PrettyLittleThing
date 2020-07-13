@@ -219,10 +219,12 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
+    text-align: center;
 }
 .section_ten_insta {
     padding: 30px;
     text-align: center;
+    width: 50%;
 }
 .section_ten .section_ten_insta .cls_icon img {
     width: 60px;
@@ -243,10 +245,22 @@
     align-items: center;
 }
 .section_ten .cls_button div {
-    width: 30%;
+    width: 40%;
     left: 35%;
     background-color: #ffffff;
     padding: 1%;
     border: 2px solid #000000;
     font-weight: 900;
+}
+.section_ten .cls_slide img {
+    padding: 4px;
+}
+.section_ten .cls_slide img:nth-child(2) {
+    width: 51%;
+}
+.section_ten .cls_slide {
+    width: 50%;
+}
+.section_ten .cls_slide .arrow {
+    width: 35px;
 }
