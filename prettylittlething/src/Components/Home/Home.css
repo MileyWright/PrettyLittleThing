@@ -271,13 +271,19 @@
     align-items: center;
     width: 100%;
 }
-.section_eleven .cls_name{
-    
+.section_eleven .cls_name {
+    font-size: 3.8rem;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
 }
-.section_eleven {
-    
+.section_eleven .cls_p {
+    width: 670px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 20px;
 }
-.section_eleven .slide { background-color: lightcoral;
+.section_eleven .slide {
     display: flex;
     justify-content: center;
     align-items: center;
