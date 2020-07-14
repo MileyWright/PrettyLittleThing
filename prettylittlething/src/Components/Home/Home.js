@@ -159,7 +159,7 @@ const Home = () => {
                     <div className='icons'>
                         <img src={require('../Assets/tiktok.svg')} className="tik" alt='tikLogo'/>
                     </div>
-                    <hr/>
+                    <div className='vr'></div>
                     <img src={require('../Assets/visa.png')} className="icon2" alt='visa'/>
                     <img src={require('../Assets/visa-electron.png')} className="icon2" alt='visa-electron'/>
                     <img src={require('../Assets/mastercard.webp')} className="icon2" alt='mastercard'/>
