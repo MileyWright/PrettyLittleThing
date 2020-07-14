@@ -324,3 +324,19 @@
 .section_eleven .slide .cls_slide .arrow {
     width: 60px;
 }
+.section_twelve {
+    background: #000000;
+}
+.section_twelve div {
+
+}
+.section_twelve div img{
+    width: 20px;
+    color: white;
+}
+.section_twelve div .insta {
+    /* background-color: white; */
+}
+.section_twelve div .insta:hover {
+ color: lightblue;
+}
