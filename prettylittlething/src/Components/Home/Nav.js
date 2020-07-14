@@ -81,9 +81,10 @@ const Nav = () => {
                     </Dropdown>
 
                     <Input
-                        placeholder="input search text"
+                        className='search_bar'
+                        placeholder="SEARCH"
                         onSearch={value => console.log(value)}
-                        style={{ width: 200, height: 30, fontSize: 12}}
+                        style={{ width: 220, height: 25}}
                         suffix={suffix}
                     />
                 </div>
