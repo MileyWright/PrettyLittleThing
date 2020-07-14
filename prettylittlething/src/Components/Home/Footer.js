@@ -41,6 +41,7 @@ const Footer = () => {
           <a href='https://www.prettylittlething.us/refer-a-friend?situation=footer'>Refer a friend</a>
         </div>
       </div>
+      <div className='copyright'>PRETTYLITTLETHING © 2020</div>
     </div>
   )
 }

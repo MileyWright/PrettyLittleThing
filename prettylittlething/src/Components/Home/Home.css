@@ -403,3 +403,8 @@
 .footer .footer_grid .footer_list a:hover {
     text-decoration: underline;
 }
+.footer .copyright {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.7rem;
+}
