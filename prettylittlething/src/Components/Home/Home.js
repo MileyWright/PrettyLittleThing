@@ -144,6 +144,31 @@ const Home = () => {
                     <div className='icons'>
                         <img src={require('../Assets/instagram-sketched(1).png')} className="insta" alt='instaLogo'/>
                     </div>
+                    <div className='icons'>
+                        <img src={require('../Assets/facebook.svg')} className="fb" alt='fbLogo'/>
+                    </div>
+                    <div className='icons'>
+                        <img src={require('../Assets/twitter.svg')} className="tw" alt='twLogo'/>
+                    </div>
+                    <div className='icons'>
+                        <img src={require('../Assets/internet.svg')} className="yt" alt='ytLogo'/>
+                    </div>
+                    <div className='icons'>
+                        <img src={require('../Assets/podcast.svg')} className="pod" alt='podLogo'/>
+                    </div>
+                    <div className='icons'>
+                        <img src={require('../Assets/tiktok.svg')} className="tik" alt='tikLogo'/>
+                    </div>
+                    <hr/>
+                    <img src={require('../Assets/visa.png')} className="icon2" alt='visa'/>
+                    <img src={require('../Assets/visa-electron.png')} className="icon2" alt='visa-electron'/>
+                    <img src={require('../Assets/mastercard.webp')} className="icon2" alt='mastercard'/>
+                    <img src={require('../Assets/maestro.webp')} className="icon2" alt='maestro'/>
+                    <img src={require('../Assets/paypal-new2.webp')} className="icon2" alt='paypal'/>
+                    <img src={require('../Assets/klarna.png')} className="icon2" alt='klarna'/>
+                    <img src={require('../Assets/discover2.webp')} className="icon2" alt='discover'/>
+                    <img src={require('../Assets/dci2.webp')} className="icon2" alt='dci'/>
+                    
                 </div>
             </div>
         </div>
