@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from './Nav';
-
+import Footer from './Footer';
+import './Home.css';
 const Home = () => {
     return (
         <div>
@@ -168,8 +169,10 @@ const Home = () => {
                     <img src={require('../Assets/klarna.png')} className="icon2" alt='klarna'/>
                     <img src={require('../Assets/discover2.webp')} className="icon2" alt='discover'/>
                     <img src={require('../Assets/dci2.webp')} className="icon2" alt='dci'/>
-                    
                 </div>
+            </div>
+            <div className='section_thirteen'>
+                <Footer />
             </div>
         </div>
     )
