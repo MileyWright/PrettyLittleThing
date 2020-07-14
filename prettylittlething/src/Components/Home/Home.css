@@ -375,3 +375,31 @@
     width: 3px;
     height: 30px;
 }
+.footer {
+    padding: 20px;
+}
+.footer .footer_grid {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer .footer_grid .footer_list {
+    display: flex;
+    flex-direction: column;
+}
+.footer .footer_grid .footer_list div {
+    font-size: 0.9rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.footer .footer_grid .footer_list .top {
+    padding-top: 5px;
+}
+.footer .footer_grid .footer_list a {
+    color: #000000;
+    font-size: 0.7rem;
+    padding: 1px;
+}
+.footer .footer_grid .footer_list a:hover {
+    text-decoration: underline;
+}
