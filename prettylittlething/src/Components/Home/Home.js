@@ -4,7 +4,7 @@ import Footer from './Footer';
 import './Home.css';
 const Home = () => {
     return (
-        <div>
+        <div className='home'>
             <Nav />
             <div className='section_three'>
                 <div>UP TO 70% OFF EVERYTHING*</div>

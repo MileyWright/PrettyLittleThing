@@ -1,3 +1,10 @@
+.nav {
+    position: -webkit-sticky;
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1000;
+}
 .search {
     display:flex;
     width: 40%;
@@ -83,6 +90,26 @@
 .bottomNav .nav_sale {
     color: #f0373d;
 }
+.navbar {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    transition: top 0.6s;
+    display: none;
+}
+.hiddenNav {
+    padding: 7px;  
+    background: #fdbedb;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+.home {
+    /* padding-top: 60px; */
+}
 .section_three {
     background: #fdbedb;
     text-align: center;
@@ -91,10 +118,9 @@
     font-weight: 900;
     letter-spacing: 4px;
     padding: 7px;
+    padding-top: 100px;
 }
-.section_three div {
 
-}
 .section_three .line-4 {
     font-size: 0.9rem;
     letter-spacing: 0;
