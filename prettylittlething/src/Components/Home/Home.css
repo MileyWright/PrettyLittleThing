@@ -326,17 +326,28 @@
 }
 .section_twelve {
     background: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 .section_twelve div {
-
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.section_twelve div .icons {
+    background: #ffffff;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
 }
 .section_twelve div img{
     width: 20px;
-    color: white;
+    /* color: white; */
 }
-.section_twelve div .insta {
-    /* background-color: white; */
-}
-.section_twelve div .insta:hover {
- color: lightblue;
+
+.section_twelve div .icons:nth-child(1):hover {
+   background: #517fa4 ;
 }

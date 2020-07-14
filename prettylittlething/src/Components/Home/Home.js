@@ -140,8 +140,10 @@ const Home = () => {
                 </div>
             </div>
             <div className='section_twelve'>
-                <div>hey
-                <img src={require('../Assets/instagram.svg')} className="insta" alt='instaLogo'/>
+                <div>
+                    <div className='icons'>
+                        <img src={require('../Assets/instagram-sketched(1).png')} className="insta" alt='instaLogo'/>
+                    </div>
                 </div>
             </div>
         </div>
