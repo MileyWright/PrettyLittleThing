@@ -86,6 +86,7 @@
 }
 .bottomNav li {
     padding: 0 20px 0 20px;
+    cursor: pointer;
 }
 .bottomNav .nav_sale {
     color: #f0373d;
@@ -95,7 +96,6 @@
     padding: 10px;
     position: fixed;
     top: 0;
-    transition: 1s;
     display: none;
 }
 .hiddenNav {
@@ -106,12 +106,8 @@
     font-weight: 900;
     font-size: 0.9rem;
     letter-spacing: 1px;
-    transition-property: all;
-    transition-duration: 3s;
-
-}
-.home {
-    /* padding-top: 60px; */
+    top: 95px !important;
+    transition-delay: top .5s;
 }
 .section_three {
     background: #fdbedb;
@@ -180,6 +176,7 @@
     padding: 8px;
     border: 2px solid #000000;
     font-weight: 900;
+    cursor: pointer;
 }
 .section_eight {
     background: #fee3e5;
@@ -192,6 +189,7 @@
 .section_eight .section_eight_grid {
     display:flex;
     width: 80%;
+    cursor: pointer;
 }
 .section_eight .section_eight_head {
     text-align: center;
@@ -244,6 +242,7 @@
     padding: 1%;
     border: 2px solid #000000;
     font-weight: 900;
+    cursor: pointer;
 }
 .section_ten {
     background: #fdbedb;
@@ -283,6 +282,12 @@
     padding: 1%;
     border: 2px solid #000000;
     font-weight: 900;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+.section_ten .cls_button div:hover {
+    background-color: #000000;
+    color: #ffffff;
 }
 .section_ten .cls_slide img {
     padding: 4px;
@@ -352,6 +357,7 @@
     height: 40px;
     width: 100%;
     text-align: center;
+    cursor: pointer;
 }
 .section_eleven .slide .cls_slide .arrow {
     width: 60px;
@@ -375,7 +381,7 @@
     margin: 10px;
     border-radius: 7px;
     transition-duration: .2s;
-
+    cursor: pointer;
 }
 .section_twelve div img{
     width: 30px;

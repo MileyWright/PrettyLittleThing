@@ -128,9 +128,6 @@ const Nav = () => {
                 <li>BEAUTY</li>
                 <li>THE EDIT</li>
             </div>
-            {/* <div className='hiddenNav'>
-                SUMMER SALE - UP TO 70% OFF EVERYTHING* EXCL BEAUTY - HURRY! LIMITED TIME ONLY
-            </div> */}
             <HiddenNav />
         </div>
     )
