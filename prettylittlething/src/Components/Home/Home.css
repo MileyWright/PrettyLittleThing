@@ -244,6 +244,33 @@
     font-weight: 900;
     cursor: pointer;
 }
+.pressplay {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pressplay img {
+    width: 100%;
+}
+.pressplay .cls_button {
+    position: absolute;
+    bottom: 27px;
+    width: 13%;
+    background-color: #ffffff;
+    padding: .5%;
+    border: 2px solid #000000;
+    font-weight: 900;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 1px;
+    transition-duration: .5s;
+}
+.pressplay .cls_button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
 .section_ten {
     background: #fdbedb;
     display: flex;

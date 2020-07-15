@@ -91,6 +91,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className='pressplay'>
+                <img src={require('../Assets/Video-Banner-Desktop.jpg')} alt='videobanner' />
+                <div className='cls_button'>PRESS PLAY</div>
+            </div>
             <div className='section_ten'>
                 <div className='section_ten_insta'>
                     <div className='cls_icon'><img src={require('../Assets/instagram-sketched(1).png')} alt='null'/></div>
