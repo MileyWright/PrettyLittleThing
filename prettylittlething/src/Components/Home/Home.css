@@ -475,3 +475,13 @@
     padding: 10px;
     font-size: 0.7rem;
 }
+@media only screen and (max-width: 1200px) {
+    .section_eleven .slide .cls_grid {
+        padding: .5%;
+    }
+}
+@media only screen and (max-width: 1176px) {
+    .bottomNav li {
+        padding: 0 19px;
+    }
+}
