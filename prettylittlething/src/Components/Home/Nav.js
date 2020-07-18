@@ -1,5 +1,6 @@
 import React from "react";
 import HiddenNav from './HiddenNav';
+import SideMenu from './SideMenu';
 import { Link } from 'react-router-dom';
 import { Input } from 'antd';
 import { Menu, Dropdown } from 'antd';
@@ -80,7 +81,6 @@ const Nav = () => {
                         <img src={require('../Assets/flag.png')} alt='american flag'/> <DownOutlined />
                         </a>
                     </Dropdown>
-
                     <Input
                         className='search_bar'
                         placeholder="SEARCH"
@@ -89,6 +89,11 @@ const Nav = () => {
                         suffix={suffix}
                     />
                 </div>
+                <div className='sideMenu_nav'>
+                    <SideMenu />
+                </div>
+                   
+                
                 <div className='prettylittlething-logo'>
                     <img src={require('../Assets/PrettyLittleThing-logo.jpg')} alt='Pretty Little Thing Logo'/>
                 </div>
