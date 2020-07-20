@@ -1,9 +1,16 @@
+.sideMenu {
+width: 800px;
+}
+::-webkit-scrollbar {
+    width: 0px; /* remove scrollbar space */
+}
 .side_nav {
     display: flex;
     background-color: #eaeaea;
     align-items: center;
     justify-content: center;
     width: 220px;
+    margin-top: 5px;
 }
 .side_nav div {
     width: 99px;

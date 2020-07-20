@@ -45,13 +45,46 @@ const SideMenu = (props) => {
             <div>NEW IN</div>
             <img src={require('../Assets/newin.webp')} alt='newin'/>
           </div>
-          <div className='side_nav'></div>
-          <div className='nav'></div>
-          <div className='nav'></div>
-          <div className='nav'></div>
-          <div className='nav'></div>
-          <div className='nav'></div>
-          <div className='nav'></div>
+          <div className='side_nav'>
+            <div>SALE</div>
+            <img src={require('../Assets/sale.webp')} alt='sale'/>
+          </div>
+          <div className='side_nav'>
+            <div>CLOTHING</div>
+            <img src={require('../Assets/clothing.webp')} alt='clothing'/>
+          </div>
+          <div className='side_nav'>
+            <div>STAY HOME</div>
+            <img src={require('../Assets/stay-home.webp')} alt='stayhome'/>
+          </div>
+          <div className='side_nav'>
+            <div>SHOP BY FIGURE</div>
+            <img src={require('../Assets/shopby.webp')} alt='shopbyfigure'/>
+          </div>
+          <div className='side_nav'>
+            <div>DRESSES</div>
+            <img src={require('../Assets/dresses.webp')} alt='dresses'/>
+          </div>
+          <div className='side_nav'>
+            <div>TOPS</div>
+            <img src={require('../Assets/tops.webp')} alt='tops'/>
+          </div>
+          <div className='side_nav'>
+            <div>SHOES</div>
+            <img src={require('../Assets/shoes.webp')} alt='shoes'/>
+          </div>
+          <div className='side_nav'>
+            <div>ACCESSORIES</div>
+            <img src={require('../Assets/accessories.webp')} alt='accessories'/>
+          </div>
+          <div className='side_nav'>
+            <div>BEAUTY</div>
+            <img src={require('../Assets/beauty.webp')} alt='beauty'/>
+          </div>
+          <div className='side_nav'>
+            <div>THE EDIT</div>
+            <img src={require('../Assets/the-edit.webp')} alt='the-edit'/>
+          </div>
         </div>
 
       </Drawer>
