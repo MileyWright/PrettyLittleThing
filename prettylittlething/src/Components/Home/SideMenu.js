@@ -86,7 +86,6 @@ const SideMenu = (props) => {
             <img src={require('../Assets/the-edit.webp')} alt='the-edit'/>
           </div>
         </div>
-
       </Drawer>
     </>
   );
