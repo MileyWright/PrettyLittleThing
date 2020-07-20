@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Drawer} from "antd";
-import {MenuOutlined} from '@ant-design/icons';
+import { Drawer, Input } from "antd";
+import {MenuOutlined, SearchOutlined } from '@ant-design/icons';
 import './Drawer.css';
 
 const SideMenu = (props) => {
@@ -13,6 +13,13 @@ const SideMenu = (props) => {
   const onClose = () => {
     setVisible(false);
   };
+  const suffix = (
+    <SearchOutlined
+        style={{
+        fontSize: 16,
+        }}
+    />
+  );
 
   return (
     <>
@@ -21,15 +28,31 @@ const SideMenu = (props) => {
       </div>
       <Drawer
         className="sideMenu"
-        title="FILTER"
         placement="left"
         closable={false}
         onClose={onClose}
         visible={visible}
       >
-        <br />
-        <br />
-        <div>Hello</div>
+        <div className='grid'>
+        <Input
+          className='searchbar'
+          placeholder="Search..."
+          onSearch={value => console.log(value)}
+          style={{ width: 220, height: 25}}
+          suffix={suffix}
+        />
+          <div className='side_nav'>
+            <div>NEW IN</div>
+            <img src={require('../Assets/newin.webp')} alt='newin'/>
+          </div>
+          <div className='side_nav'></div>
+          <div className='nav'></div>
+          <div className='nav'></div>
+          <div className='nav'></div>
+          <div className='nav'></div>
+          <div className='nav'></div>
+          <div className='nav'></div>
+        </div>
 
       </Drawer>
     </>

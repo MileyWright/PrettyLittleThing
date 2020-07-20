@@ -1,3 +1,16 @@
-.side_Menu .icon{background-color: red;
-    width: 30%;
+.side_nav {
+    display: flex;
+    background-color: #eaeaea;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+}
+.side_nav div {
+    width: 99px;
+}
+.side_nav img {
+    width: 80px;
+}
+.grid .side_nav:nth-child(1) { background-color: red;
+   
 }
