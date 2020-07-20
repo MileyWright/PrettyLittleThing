@@ -609,3 +609,33 @@
         width: 100%;
     }
 }
+@media only screen and (max-width: 680px) {
+    .pressplay .cls_button {
+        width: 140px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .user_icons .need_help {
+        display: none;
+    }
+    .section_seven div .cls_button{
+        left: 45px;
+    }
+    .pressplay .cls_button {
+        bottom: 7px;
+    }
+    .section_ten .cls_slide {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 590px) {
+    .section_eleven .slide .arrow {
+        display: none;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .section_eleven .slide .cls_slide .cls_grid{ background-color: lightseagreen;
+        width: 49%;
+        padding-bottom: 1%;
+    }
+}
