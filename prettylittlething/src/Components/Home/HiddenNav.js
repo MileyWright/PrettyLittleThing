@@ -41,5 +41,3 @@ export default class HiddenNav extends React.Component {
     );
   }
 }
-// const classHide = this.state.isHide ? 'hide' : '';
-//         return <div className={`topbar ${classHide}`}>topbar</div>;

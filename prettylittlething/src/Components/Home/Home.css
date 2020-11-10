@@ -628,14 +628,126 @@
         width: 90%;
     }
 }
+@media only screen and (max-width: 604px) {
+    .section_nine_cls{
+        flex-direction: column;
+    }
+}
 @media only screen and (max-width: 590px) {
+    .section_four div:first-child {
+        width: 100%;
+    }
+    .section_four div:nth-child(2){
+        display: none;
+    }
+    .section_six .six div:nth-child(3){
+        display: none;
+    }
     .section_eleven .slide .arrow {
         display: none;
     }
-}
-@media only screen and (max-width: 540px) {
-    .section_eleven .slide .cls_slide .cls_grid{ background-color: lightseagreen;
+    .section_eleven .slide .cls_slide{
         width: 49%;
         padding-bottom: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section_eleven .slide .cls_slide .cls_grid div{
+        margin: 4px;
+    }
+    .section_eleven .slide .cls_slide .cls_grid .cls_button{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 520px) { 
+    .section_ten .section_ten_insta .cls_name {
+      font-size: 7vw;
+    }
+    .section_ten .section_ten_insta .cls_button div:first-child {
+        width:150px;
+        
+    }
+}
+@media only screen and (max-width: 500px) { 
+    .section_three div {
+        font-size: 1.1rem;
+    }
+    .section_seven div .cls_button {
+        left: 30px;
+    }
+    .section_eight .section_eight_grid{
+        flex-wrap: wrap;
+    }
+    .section_eight .section_eight_grid .cls_grid {
+        width: 45%;
+        margin: 1%;
+    }
+}
+
+@media only screen and (max-width: 470px) { 
+    .prettylittlething-logo {
+        margin-right: 23%;
+    }
+    .user_icons{
+        display: none;
+    }
+    .section_seven div {
+        width: 100%;
+    }
+    .section_seven div .cls_button {
+        left: 60px;
+        /* padding: 3px; */
+    }
+    .pressplay .cls_button {
+        bottom: 0;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .prettylittlething-logo {
+        margin-right: 20%;
+    }
+    .pressplay{
+        cursor: pointer;
+        transition-duration: .1s;
+    }
+    .pressplay:hover{
+        opacity: 0.8;
+    }
+    .pressplay .cls_button {
+        display: none;
+    }
+    .section_ten .cls_slide .arrow{
+        display: none;
+    }
+    .section_ten .cls_slide img:nth-child(2) {
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    .prettylittlething-logo {
+        margin-right: 15%;
+    }
+}
+@media only screen and (max-width: 380px) { 
+    .prettylittlething-logo {
+        margin-right: 10%;
+    }
+    .section_ten .section_ten_insta .cls_button {
+        width:100%;
+        justify-content: space-between;
+    }
+    .section_ten .section_ten_insta .cls_button div{
+        margin: 2%;
+    }
+    .section_ten .section_ten_insta .cls_button div:nth-child(2) {
+        width:120px;
+        
+    }
+}
+@media only screen and (max-width: 349px) { 
+    .section_ten .section_ten_insta .cls_button div:first-child {
+        width:170px;
+        
     }
 }
